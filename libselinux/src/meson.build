@@ -83,6 +83,6 @@ pkg = import('pkgconfig')
 pkg.generate(
   name: 'libselinux',
   description: 'SELinux utility library',
-  url: 'https://github.com/frida/selinux',
+  url: 'https://github.com/plawnekjx/selinux',
   libraries: [libselinux],
 )

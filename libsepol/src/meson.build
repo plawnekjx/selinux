@@ -63,6 +63,6 @@ pkg = import('pkgconfig')
 pkg.generate(
   name: 'libsepol',
   description: 'SELinux policy library',
-  url: 'https://github.com/frida/selinux',
+  url: 'https://github.com/plawnekjx/selinux',
   libraries: [libsepol],
 )
